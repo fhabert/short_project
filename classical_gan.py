@@ -202,3 +202,9 @@ iters = 0
 # fig = plt.figure(figsize=(8,8))
 # plt.axis("off")
 # ims = [[plt.imshow(np.transpose(i,(1,2,0)), animated=True)] for i in img_list]
+
+# def qft(qc):
+#     for j in range(NUM_QUBITS):
+#         for k in range(j):
+#             qc.cry(np.pi/2, j,k)
+#         qc.h(j)
